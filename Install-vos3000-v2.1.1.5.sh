@@ -1,4 +1,5 @@
-www.173.82.151.19/download/vos3000-client-v2-1-1-5.exe
+# VOS Client Download 
+# www.173.82.151.19/download/vos3000-client-v2-1-1-5.exe
 
 
 /etc/init.d/iptables status
@@ -52,8 +53,9 @@ cd /usr/kunshi
 mkdir license
 cd license
 vi license.dat
-
------------------
+# Now Paste Your Licese Here
+# for License Contact abdsmd@gmail.com
+# -----------------
 
 chmod 755 license.dat
 
@@ -98,14 +100,4 @@ chkconfig --level 345 ntpd on
 chkconfig iptables --level 2345 on
 reboot -f
 --------------------------------
-
-
-mysql
-CREATE USER 'cdr'@'173.82.151.19' IDENTIFIED BY 'pass' ;
-GRANT ALL PRIVILEGES ON * . * TO 'cdr'@'173.82.151.19' IDENTIFIED BY 'pass' ;
-FLUSH PRIVILEGES ;
-\q
-
-
-
 
